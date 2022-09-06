@@ -6,7 +6,7 @@ public class O3 {
 
 	public static void main(String[] args) {
 		int n = Integer.parseInt(showInputDialog("Skriv inn et tall"));
-
+		int nummer = n;
 		int sum = 1;
 
 		while (n > 1) {
@@ -15,7 +15,7 @@ public class O3 {
 			n--;
 		}
 		System.out.print("1");
-		String melding = "Summen er " + sum;
+		String melding = "!" + nummer + " = " + sum;
 		showMessageDialog(null, melding);
 
 	}
