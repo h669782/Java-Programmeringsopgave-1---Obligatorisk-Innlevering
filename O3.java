@@ -1,6 +1,6 @@
 package no.hvl.dat100;
 
-import static javax.swing.JOptionPane.showInputDialog;
+import static javax.swing.JOptionPane.*;
 
 public class O3 {
 
@@ -14,7 +14,9 @@ public class O3 {
 			System.out.print(n + " * ");
 			n--;
 		}
-		System.out.println("1\n" + sum);
+		System.out.print("1");
+		String melding = "Summen er " + sum;
+		showMessageDialog(null, melding);
 
 	}
 
